@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap');
+*{
+	margin:0;
+	padding: 0;
+	
+
+}
+:root{
+	--main-font:'Pacifico',cursive;
+}
+html
+{
+	font-family: sans-serif;
+}
+body
+{
+}
+.container
+{
+	
+	height: 100vh;
+	width: 100%;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url("Welcome.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	user-select: none;
+
+
+}
+.enter
+{
+	height: 500px;
+	width: 500px;
+	position: absolute;
+	/*background: #fff; */
+
+}
+
+.left-one
+{
+	background: #515A5A;
+	position: absolute;
+	height: 150px;
+	width: 300px;
+	top: -20px;
+	border-radius: 50px;
+	left: 90px
+}
+.left-one img
+{
+	margin-top: 20px;
+	margin-left: 15px;
+	border-radius: 30px;
+
+}
+.right-one
+{
+	position:absolute;
+	width: 90%;
+	height: 300px;
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,.5));
+	top: 150px;
+	margin-left: 15px;
+	margin-right: 10px;
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	user-select: none;
+	/*padding: 10px; */
+
+
+}
+.right-one:hover
+{
+	-webkit-box-shadow: -3px -1px 37px 3px rgba(245,233,245,1);
+-moz-box-shadow: -3px -1px 37px 3px rgba(245,233,245,1);
+box-shadow: -3px -1px 37px 3px rgba(245,233,245,1);
+}
+
+.right-one button
+{
+	margin-left: 20px;
+
+}
+.right-one h1
+{
+	font-size: 25px;
+	font-family: var(--main-font);
+	color: #ECF0F1;
+	margin-right: 30px;
+}
+.right-one input[type=text] ,input[type=password] ,input[type=email]{
+	width: 80%;
+	padding: 5px;
+	margin-bottom: 5px;
+	border:none;
+	border-bottom: 2px solid #154360;
+	border-radius: 4px;
+	font-size: 15px;
+	opacity: 0.45; 
+	outline: none;
+	cursor: pointer;
+
+
+}
+input[type=submit]
+{
+	background-color: #2ECC71;
+	color: white;
+	cursor: pointer;
+	width: 80%;
+	padding: 5px;
+	margin-bottom: 5px;
+	border:none;
+
+	border-radius: 4px;
+	font-size: 15px;
+}
+input[type=submit]:hover
+{
+	background-color:#E74C3C;
+}
+.final
+{
+	position:absolute;
+	width: 90%;
+	top: 400px;
+	margin-left: 15px;
+	margin-right: 10px;
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	user-select: none;
+}
+.final p
+{
+	font-size: 15px;
+	font-family:var(--main-font);
+	color: #ECF0F1;
+	margin-right: 5px;
+	padding: 5px 10px;
+}
+.final button
+{
+	padding: 5px 10px;
+	font-size: 15px;
+	background: #2C3E50;
+	color: white;
+	border:none;
+	border-radius: 15px;
+	cursor: pointer;
+	transition: 0.5s;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.final button a
+{
+	text-decoration: none;
+	color: white;
+}
+.final button:hover{
+	transform: scale(1.2);
+	background-color:#E74C3C;
+}
